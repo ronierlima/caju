@@ -76,5 +76,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   # Inicie a aplicação web
   $ yarn start # ou npm start
 ```
+## :memo: Licença
 
-Feito com ❤️ por [Ronier Lima](https://github.com/ronierlima)
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+Feito com ❤️ por [Ronier Lima](https://github.com/ronierlima) com a tutoria de [Luiz Duarte](https://github.com/luiztools), da [LuizTools](https://www.luiztools.com.br).</sup>
