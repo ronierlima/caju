@@ -1,4 +1,7 @@
 import React from 'react';
+
+import vars from '../../configs/vars';
+
 import Header from '../../components/Header';
 import { Container } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -59,8 +62,8 @@ class StatsPage extends React.Component {
                     </StatsContainer>
                 ) : (
                         <StatsContainer className="text-center">
-                            <p><b>htpps://caju.tk/{shortenedURL.code}</b></p>
-                            <p>Vai te levar para:<br />{shortenedURL.url}</p>
+                            <p><b>{vars.HOST_APP + shortenedURL.code}</b></p>
+                            <p>Vai te levar para:<br /><a href={shortenedURL.url}>{shortenedURL.url}</a></p>
 
                             <StatsRow>
 

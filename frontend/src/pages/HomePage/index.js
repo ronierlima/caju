@@ -1,4 +1,5 @@
 import React from 'react';
+import vars from '../../configs/vars';
 
 //Componentes de estilo
 import { Container, InputGroup, FormControl, Button, Alert, Spinner } from 'react-bootstrap';
@@ -74,19 +75,19 @@ class HomePage extends React.Component {
                                 code && (
                                     <>
                                         <InputGroup className="mb-3">
-                                            <FormControl autoFocus={true} defaultValue={`https://pitu.tk/${code}`} ref={(input) => this.inputURL = input} />
+                                            <FormControl autoFocus={true} defaultValue={vars.HOST_APP + code} ref={(input) => this.inputURL = input} />
                                             <InputGroup.Append>
                                                 <Button className="pl-2" variant="outline-secondary" onClick={() => this.copyToClipboard()}><FontAwesomeIcon icon="copy"/> Copiar</Button>
                                             </InputGroup.Append>
                                         </InputGroup>
 
-                                        <p>Para acompanhar as estatíscas, acesse <a>https://pitu.tk/{code}</a> </p>
+                                        <p>Para acompanhar as estatíscas, acesse <a href={vars.HOST_APP + code +'/stats'} >{vars.HOST_APP + code +'/stats'}</a> </p>
                                     </>
                                 )
                                     
                             )
                         }
-                        
+                    
 
                         {errorMessage && <Alert variant="danger">{errorMessage}</Alert>}
                     </Form  >

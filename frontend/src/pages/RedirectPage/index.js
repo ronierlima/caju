@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Spinner } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-import { StatsBox, StatsBoxTitle, StatsContainer, StatsRow } from './styles';
+import { StatsContainer} from './styles';
 import Header from '../../components/Header';
 import ShortenedService from '../../services/shortenerService'
 
@@ -48,7 +48,7 @@ class RedirectPage extends React.Component {
                         <StatsContainer className="text-center">
                             <Spinner animation="border" />
                             <p className="text-center">Redirecionando ...</p>
-                        </StatsContainer>
+                        </StatsContainer>                                                                                                                                                                                                                                                                                                                                                                                                   
 
         )
     }
