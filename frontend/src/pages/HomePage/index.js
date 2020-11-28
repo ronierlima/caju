@@ -39,6 +39,7 @@ class HomePage extends React.Component {
                 this.setState({ isLoading: false, code: result.code })
     
             } catch (error) {
+                console.log(error);
                 this.setState({ isLoading: false, errorMessage: 'Ops, aconteceu um erro ao tentar encurtar a url.' });
             }
         }
