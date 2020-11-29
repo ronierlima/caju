@@ -22,9 +22,9 @@
 ## :page_with_curl: Sobre 
 
 O **[Caju](http://www.caju.gq/)** é uma aplicação Web que possibilita aos usuários encurtar e vizualizar estatísticas da URL que ele resolveu encurtar.
-Essa aplicação foi realizada durante a **Semana Full Stack JS**, projeto do professor [Luiz Duarte](https://www.luiztools.com.br) que idealizou o nome Pitu, mas eu gosto é de **Caju**.
+Essa aplicação foi realizada durante a **Semana Full Stack JS**, projeto do professor [Luiz Duarte](https://www.luiztools.com.br) que idealizou o nome Pitu, mas eu gosto é de **[Caju](http://www.caju.gq/)**.
 
-Para acessar o caju funcionando vá em [http://www.caju.gq/](hhttp://www.caju.gq/).
+Para acessar o caju funcionando vá em [http://www.caju.gq/](http://www.caju.gq/).
 ## :hammer: Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
