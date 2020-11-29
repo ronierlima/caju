@@ -16,14 +16,15 @@
   <a href="#page_with_curl-sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#books-requisitos">Requisitos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-começando">Começando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="https://ronierlima.github.io/flexblog/">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="http://www.caju.gq/">Acesse Caju</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </>
 
 ## :page_with_curl: Sobre 
 
-O **Caju** é uma aplicação Web que possibilita aos usuários encurtar e vizualizar estatísticas da URL que ele resolveu encurtar.
+O **[Caju](hhttp://www.caju.gq/)** é uma aplicação Web que possibilita aos usuários encurtar e vizualizar estatísticas da URL que ele resolveu encurtar.
 Essa aplicação foi realizada durante a **Semana Full Stack JS**, projeto do professor [Luiz Duarte](https://www.luiztools.com.br) que idealizou o nome Pitu, mas eu gosto é de **Caju**.
 
+Para acessar o caju funcionando vá em [hhttp://www.caju.gq/](hhttp://www.caju.gq/).
 ## :hammer: Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -79,5 +80,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
 
 Feito com ❤️ por [Ronier Lima](https://github.com/ronierlima) com a tutoria de [Luiz Duarte](https://github.com/luiztools), da [LuizTools](https://www.luiztools.com.br).</sup>
